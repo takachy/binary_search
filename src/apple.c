@@ -17,9 +17,6 @@ int p(x){
 }
 
 int bin_search(int lb, int ub){
-  // int lb, ub;
-  // lb = 0;
-  // ub = 100000; 
 
   while(ub - lb > 1) {
     int mid = (lb + ub) / 2;
@@ -49,3 +46,4 @@ int main(){
 
   return 0;
 }
+
