@@ -38,12 +38,12 @@ int bin_search(int lb, int ub){
 
 int main(){
   int i, lb, ub;
-  lb = 0;
-  ub = 100000;
   scanf("%d%d", &n, &k);
   for(i = 0; i < n; i++){
     scanf("%d", &A[i]);
   }
+  lb = 0;
+  ub = 100000;
 
   printf("%d\n", bin_search(lb, ub));
 
