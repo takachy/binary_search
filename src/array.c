@@ -6,11 +6,6 @@ int A[100000];
 
 
 int bin_search(int lb, int ub){
-  // int lb, ub;
-  // lb = 0; 
-  // ub = n-1; 
-  if (A[ub] < k) return n;
-
   while(ub - lb > 1) {
     int mid = (lb + ub) / 2;
 
@@ -28,12 +23,12 @@ int bin_search(int lb, int ub){
 
 int main(){
   int i, lb, ub;
-  lb = 0;
-  ub = n-1;
   scanf("%d%d", &n, &k);
   for(i = 0; i < n; i++){
     scanf("%d", &A[i]);
   }
+  lb = -1;
+  ub = n;
 
   int x = bin_search(lb,ub);
   printf("%d\n", x);
