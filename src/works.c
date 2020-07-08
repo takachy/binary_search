@@ -45,7 +45,7 @@ int main(){
     scanf("%d", &A[i]);
   }
   lb = 0;
-  ub = 10000;
+  ub = 100000; // 10^5
   printf("%d\n", bin_search(lb, ub));
 
 
