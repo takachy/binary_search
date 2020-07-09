@@ -37,7 +37,7 @@ int main(){
     scanf("%d", &A[i]);
   }
   lb = 0;
-  ub = 1000000000; // = 10^9
+  ub = 1000000001; // = 10^9 + 1
   printf("%d\n", bin_search(lb, ub));
 
 

@@ -45,7 +45,7 @@ int main(){
     scanf("%d", &A[i]);
   }
   lb = 0;
-  ub = 100000; // 10^5
+  ub = 1000000000; // n_max*a_i_max = 10^9
   printf("%d\n", bin_search(lb, ub));
 
 
